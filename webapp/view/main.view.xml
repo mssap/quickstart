@@ -1,0 +1,9 @@
+<mvc:View controllerName="bosch.co.quickstart.controller.main"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+        <Button id="Button" text="{i18n>buttonText}" press=".onPress"></Button>
+        </content>
+    </Page>
+</mvc:View>
